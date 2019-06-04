@@ -134,8 +134,8 @@ To use this template, configure properties such as credentials, configurations, 
 - wday.user `wdayf_user`
 - wday.password `wdayf_password`
 - wday.tenant `wday_tenant`
-- wday.endpoint `https://{your Workday domain}/ccx/service/{your tenant name}/Revenue_Management/v23.1`
-- wday.responseTimeout `Workday_User.response_timeout`
+- wday.host `wday_host`
+- wday.responseTimeout `2000`
 
 ### SMTP Services Configuration
 
