@@ -126,7 +126,7 @@ ns0#Get_Sales_Items_Request: {
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<workday:revenue-management doc:name="Revenue management" doc:id="6d10a22b-fe3f-406a-b21a-a0f50f44ac60" config-ref="Workday_Config_version_30" operation="Get_Sales_Items"/>
+		<workday:revenue-management doc:name="Revenue management" doc:id="6d10a22b-fe3f-406a-b21a-a0f50f44ac60" config-ref="Workday_Config" operation="Get_Sales_Items"/>
 		<ee:transform doc:name="Retrieve Workday Data" doc:id="c7f7318b-a516-4525-b6f4-5a3c44f7e086">
 						<ee:message>
 							<ee:set-payload><![CDATA[%dw 2.0
