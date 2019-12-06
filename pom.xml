@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.mule.templates</groupId>
         <artifactId>templates-tooling-parent-pom</artifactId>
-        <version>2.1.15</version>
+        <version>2.1.25</version>
     </parent>
     <artifactId>template-wdayf2sfdc-salesitem2product-migration</artifactId>
     <packaging>mule-application</packaging>
@@ -21,7 +21,7 @@
                     <classifier>mule-application-template</classifier>
                 </configuration>
             </plugin>
-        <plugin>
+            <plugin>
                 <groupId>com.mulesoft.munit.tools</groupId>
                 <artifactId>munit-maven-plugin</artifactId>
                 <version>${munit.version}</version>
@@ -72,8 +72,8 @@
             <artifactId>mule-scripting-module</artifactId>
             <classifier>mule-plugin</classifier>
             <scope>test</scope>
-        </dependency>         
-    	<dependency>
+        </dependency>
+        <dependency>
             <groupId>com.mulesoft.munit</groupId>
             <artifactId>munit-runner</artifactId>
             <classifier>mule-plugin</classifier>
@@ -82,7 +82,7 @@
         <dependency>
             <groupId>com.mulesoft.munit</groupId>
             <artifactId>munit-tools</artifactId>
-             <classifier>mule-plugin</classifier>
+            <classifier>mule-plugin</classifier>
             <scope>test</scope>
         </dependency>
     </dependencies>

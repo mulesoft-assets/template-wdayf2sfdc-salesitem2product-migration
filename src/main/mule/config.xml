@@ -19,8 +19,9 @@
     <salesforce:sfdc-config name="Salesforce_Config" doc:id="91a37610-996e-4bff-84d5-a0316c6e3284" doc:name="Salesforce Config">
         <salesforce:basic-connection password="${sfdc.password}" securityToken="${sfdc.securityToken}" username="${sfdc.username}" />
     </salesforce:sfdc-config>
-	<workday:config-version-30-config name="Workday_Config_version_30" doc:name="Workday Config version 30" doc:id="dcf636d8-5567-4df2-94c3-a4bb770e326a" >
-		<workday:basic-authentication-api-v30-connection username="${wday.user}" password="${wday.password}" tenantName="${wday.tenant}" hostName="${wday.host}" responseTimeout="${wday.responseTimeout}"/>
-	</workday:config-version-30-config>
+
+	<workday:config-version-32-config name="Workday_Config" doc:name="Workday Config version 32" doc:id="d837e08d-9043-47a1-8864-83d6f7c9c18d" >
+		<workday:basic-authentication-api-v32-connection userName="${wday.user}" password="${wday.password}" tenantName="${wday.tenant}" hostName="${wday.host}" />
+	</workday:config-version-32-config>
 
 </mule>
